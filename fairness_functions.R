@@ -1,5 +1,4 @@
 # title: Fairness functions
-# author: Anna Zink
 # created: 07/17/2018
 # updated: 01/25/2019 
 # description: Functions used to run fairness analysis 
@@ -103,14 +102,3 @@ all_metrics<-function(y,ypred,model){
   df<-cbind(model, r2, mse, ou_grp, ou_ref, pr_grp, pr_ref, gc, gcov)
   return(df)
 }
-
-# load coefficients - upload coefficients for measures
-load_coef<-function(file) {
-  beta_tmp<-read.csv(file)
-  beta<-beta_tmp$V1
-  pred_scaled<-X2_scale %*% beta
-  pred<-rescale(pred_scaled)
-  return(pred) 
-}
-
-
