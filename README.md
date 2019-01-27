@@ -6,7 +6,7 @@ Code and data for *Fair Regression for Health Care Spending*. Anna Zink and Sher
 
   **Code:** *fairness_for_risk_adjustment.R* runs the main analysis and depends on functions defined in *fairness_functions.R*.
 
-  **Data:** *simulated_analysis_data.csv*
+  **Data:** *simulated_analysis_data.csv* (variable descriptions in *simulated_analysis_data_dictionary.xlsx*)
 
 2. **Simulation**: 
 
