@@ -13,7 +13,7 @@ set.seed(1234)
 source('fairness_functions.R')
 
 # read in sample data 
-train<-read.csv('jasa_simulated_data.csv')
+train<-read.csv('simulated_analysis_data.csv')
 
 # create 5-folds in train data 
 nfolds<-5
