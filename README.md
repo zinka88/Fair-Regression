@@ -1,16 +1,16 @@
-# fair_regression
+# Fair-Regression
 
-Code and data material for Fair Regression work. Anna Zink and Sherri Rose. 
+Code and data for Fair Regression for Health Care Spending paper. Anna Zink and Sherri Rose. 
 
 1. **Analysis**: 
 
-Code: *fairness_for_risk_adjustment_public.R* which depends on functions defined in *fairness_functions.R*.
+*Code:* fairness_for_risk_adjustment_public.R runs the main analysis and depends on functions defined in fairness_functions.R.
 
-Data: simulated_analysis_data.csv
+*Data:* simulated_analysis_data.csv
 
 2. **Simulation**: 
 
-Code: *run_simulation.R* which depends on functinos defined in *sim_function.R* and *fairness_functions_sim.R*.
+*Code:* run_simulation.R runs the simulation and depends on functions defined in sim_function.R and fairness_functions_sim.R.
 
-Data: simulation_data.csv
+*Data:* simulation_data.csv
 
