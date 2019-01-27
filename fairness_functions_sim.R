@@ -1,6 +1,6 @@
 # title: Fairness functions sim
 # date: 07/17/2018
-# updated: 01/01/2019
+# updated: 01/27/2019
 # description: Functions used for fairness simulation
 
 # solve method using CVXR solve function -- catches any failed solve attempts
@@ -64,7 +64,7 @@ grp_rev<-function(predy,grpvar,grp2var){
   return(rev_list)
 }
 
-# calculated net compensation
+# net compensation
 overunder<-function(predy,grpvar,grp2var,grp_cost,ref_cost,grp2_cost){ 
   rev<-grp_rev(predy,grpvar,grp2var)
   grp_rev<-rev$grp

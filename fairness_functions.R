@@ -53,7 +53,7 @@ grp_rev<-function(predy){
   return(rev_list)
 }
 
-# calculated net compensation
+# net compensation
 overunder<-function(predy){ 
   rev<-grp_rev(predy)
   mhsud_rev<-rev$grp
