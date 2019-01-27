@@ -10,7 +10,7 @@ Code and data for *Fair Regression for Health Care Spending*. Anna Zink and Sher
 
 2. **Simulation**
 
-  	**Code:** *run_simulation.R* runs the simulation and depends on functions defined in "*sim_function.R* and         *fairness_functions_sim.R*.
+  	**Code:** *run_simulation.R* runs the simulation and depends on functions defined in *sim_function.R* and         *fairness_functions_sim.R*.
 
   	**Data:** *simulation_data.csv*
 
