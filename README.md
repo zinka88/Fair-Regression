@@ -1,6 +1,8 @@
 # Fair-Regression
 
-Code and data for *Fair Regression for Health Care Spending* by Anna Zink and Sherri Rose. All code is written in R and was run on R version 3.5.1. Required packages are CVXR (the analysis was run on version 0.99) and dplyr (the analysis was run on version 0.7.6).
+Code and data for "Fair Regression for Health Care Spending" by Anna Zink and Sherri Rose (2019), *Biometrics*, doi:10.1111/biom.13206(https://onlinelibrary.wiley.com/doi/abs/10.1111/biom.13206). 
+
+All code is written in R and was run on R version 3.5.1. Required packages are CVXR (the analysis was run on version 0.99) and dplyr (the analysis was run on version 0.7.6).
 
 1. **Analysis**
 
